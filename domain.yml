@@ -1,0 +1,53 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - general_weather_information
+  - temperature_information
+  - humidity_information
+  - rain_information
+  - sunny_cloudy_information
+  - wind_information
+  - weather_information_tomorrow
+  - rain_information_tomorrow
+  - maximum_temperature_information
+  - minimum_temperature_information
+  - sunny_cloudy_information_tomorrow
+
+actions:
+  - action_greet
+  - action_goodbye
+  - action_current_weather
+  - action_current_temperature
+  - action_current_humidity
+  - action_current_rain
+  - action_maximum_temperature
+  - action_minimum_temperature
+  - action_tomorrow_weather
+  - action_current_wind
+  - action_sunny_cloudy
+  - action_tomorrow_sunny_cloudy
+
+responses:
+
+  utter_sunny_information:
+  - text: "Today is going to be a very sunny day, you should put sunscreen on!"
+
+  utter_cloudy_information:
+  - text: "Today is not going to be cloudy at all, it is a great day to go outside!"
+
+  utter_rain_information_tomorrow:
+  - text: "Tomorrow there is a high chance of raining, above 80%, you should take an umbrella with you!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

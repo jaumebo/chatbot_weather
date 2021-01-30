@@ -1,0 +1,218 @@
+version: "2.0"
+
+nlu:
+
+- intent: general_weather_information
+  examples: |
+    - what is the weather like?
+    - is the weather good?
+    - weather
+    - how is it outside?
+    - outside
+    - weather like?
+    - tell me about the weather
+    - is it a good day?
+
+- intent: temperature_information
+  examples: |
+    - what is the temperature going to be today?
+    - what is the temperature today?
+    - what is the temperature?
+    - temperature
+    - hot
+    - cold
+    - chill
+    - warm
+    - temp
+    - is it hot?
+    - is it warm?
+    - is it chill?
+    - is it cold?
+
+- intent: rain_information
+  examples: |
+    - rain
+    - is it going to rain?
+    - do i need an umbrella
+    - umbrella
+    - wet
+
+- intent: humidity_information
+  examples: |
+    - how humid is it today?
+    - humidity
+    - is it humid?
+    - humid
+
+- intent: maximum_temperature_information
+  examples: |
+    - maximum temperature
+    - what will be the maximum temperature?
+    - how maximum hot is it goint to get?
+    - maximum
+    - max temperature
+    - max
+
+- intent: minimum_temperature_information
+  examples: |
+    - minimum temperature
+    - what will be the minimum temperature?
+    - how minimum hot is it goint to get?
+    - minimum
+    - min temperature
+    - min
+
+- intent: wind_information
+  examples: |
+    - is it going to be windy?
+    - wind
+    - how much wind?
+    - wind speed
+    - how is the wind?
+    - is it windy?
+
+- intent: sunny_cloudy_information
+  examples: |
+    - is it cloudy today?
+    - is it going to be cloudy?
+    - cloudy
+    - clouds
+    - cloud
+    - is it sunny?
+    - sunny
+    - sun
+    - sunscreen
+    - do I need to put on sunscreen?
+    - how is the sky?
+    - sky
+
+- intent: sunny_cloudy_information_tomorrow
+  examples: |
+    - will it be cloudy tomorrow?
+    - is it going to be cloudy tomorrow?
+    - cloudy tomorrow
+    - clouds tomorrow
+    - cloud tomorrow
+    - tomorrow sunny?
+    - sunny tomorrow
+    - sun tomorrow
+    - sunscreen tomorrow
+    - will I need to put on sunscreen tomorrow?
+    - how will be the sky tomorrow?
+    - sky tomorrow
+
+- intent: weather_information_tomorrow
+  examples: |
+    - what is the weather going to be like tomorrow?
+    - temperature tomorrow
+    - hot tomorrow
+    - cold tomorrow
+    - chill tomorrow
+    - warm tomorrow
+    - temp tomorrow
+    - is it going to be hot tomorrow?
+    - is it going to be warm tomorrow?
+    - is it going to be chill tomorrow?
+    - is it going to be cold tomorrow?
+    - is it going to be cloudy tomorrow?
+    - is it going to be sunny tomorrow?
+
+- intent: rain_information_tomorrow
+  examples: |
+    - rain tomorrow
+    - is it going to rain tomorrow?
+    - will i need an umbrella tomorrow
+    - umbrella tomorrow
+    - wet tomorrow
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - What's up?
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - happy
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

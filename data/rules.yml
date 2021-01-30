@@ -1,0 +1,73 @@
+version: "2.0"
+
+rules:
+
+- rule: Say hello anytime the user says hello
+  steps:
+  - intent: greet
+  - action: action_greet
+
+- rule: Give general information of the weather when asked
+  steps:
+  - intent: general_weather_information
+  - action: action_current_weather
+
+- rule: Give information of temperature when asked
+  steps:
+  - intent: temperature_information
+  - action: action_current_temperature
+
+- rule: Give information of humidity when asked
+  steps:
+  - intent: humidity_information
+  - action: action_current_humidity
+
+- rule: Give information of the rain when asked
+  steps:
+  - intent: rain_information
+  - action: action_current_rain
+
+- rule: Give information of the maximum temperature when asked
+  steps:
+  - intent: maximum_temperature_information
+  - action: action_maximum_temperature
+
+- rule: Give information of the minimum temperature when asked
+  steps:
+  - intent: minimum_temperature_information
+  - action: action_minimum_temperature
+
+- rule: Give information sunny/cloudy when asked
+  steps:
+  - intent: sunny_cloudy_information
+  - action: action_sunny_cloudy
+
+- rule: Give information sunny/cloudy tomorrow when asked
+  steps:
+  - intent: sunny_cloudy_information_tomorrow
+  - action: action_tomorrow_sunny_cloudy
+
+- rule: Give information wind when asked
+  steps:
+  - intent: wind_information
+  - action: action_current_wind
+
+- rule: Give general information weather tomorrow when asked
+  steps:
+  - intent: weather_information_tomorrow
+  - action: action_tomorrow_weather
+
+- rule: Give information rain tomorrow when asked
+  steps:
+  - intent: rain_information_tomorrow
+  - action: utter_rain_information_tomorrow
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: action_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
