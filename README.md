@@ -1,6 +1,7 @@
 # Weather Chatbot
 
 ## Project AI Use Case: chatbot for weather forecast
+##### Class project MsC Artificial Intelligence, IUBH
 
 #### Jaume Brossa Ordóñez
 
